@@ -50,7 +50,7 @@ The two oversampling algorithms we used were:
 
   - **Confusion Matrix**
 
-    <img src="Images/naive_matrix.png" style="zoom:67%;" />
+    <img src="Images/naive_matrix.png" style="zoom:50%;" />
 
   - **Imbalanced Classification Report**
 
@@ -70,7 +70,7 @@ The two oversampling algorithms we used were:
 
   - **Confusion Matrix**
 
-    <img src="Images/smote_matrix.png" style="zoom:67%;" />
+    <img src="Images/smote_matrix.png" style="zoom:50%;" />
 
   - **Imbalanced Classification Report**
 
@@ -94,7 +94,7 @@ The method used was:
 
   - **Confusion Matrix**
 
-    <img src="Images/cluster_matrix.png" style="zoom: 67%;" />
+    <img src="Images/cluster_matrix.png" style="zoom: 50%;" />
 
   - **Imbalanced Classification Report**
 
@@ -118,7 +118,7 @@ Our final resampling approach was to test a combination over- and under-sampling
 
   - **Confusion Matrix**
 
-    <img src="Images/smoteen_matrix.png" style="zoom: 67%;" />
+    <img src="Images/smoteen_matrix.png" style="zoom: 50%;" />
 
   - **Imbalanced Classification Report**
 
@@ -146,7 +146,7 @@ The two ensemble algorithms we used were:
 
   - **Confusion Matrix**
 
-    <img src="Images/rf_matrix.png" style="zoom: 67%;" />
+    <img src="Images/rf_matrix.png" style="zoom: 50%;" />
 
   - **Imbalanced Classification Report**
 
@@ -168,7 +168,7 @@ The two ensemble algorithms we used were:
 
   - **Confusion Matrix**
 
-    <img src="Images/adaboost_matrix.png" style="zoom: 67%;" />
+    <img src="Images/adaboost_matrix.png" style="zoom: 50%;" />
 
   - **Imbalanced Classification Report**
 
@@ -190,13 +190,13 @@ We listed and sorted the 94 **features** we used to execute our analysis in desc
 
 The **DataFrame** and code used to generate it can be seen in this screenshot:
 
-<img src="Images/feature_importance.png" style="zoom:80%;" />
+<img src="Images/feature_importance.png" style="zoom:67%;" />
 
 
 
 We also created a complementary bar **chart visualization** with all features appearing in descending order. This graph helps to visualize and understand the relevance of each specific feature in the context of the decision process about identifying risk in a potential loan acquirer's profile.
 
-<img src="Images/feats_chart.png" style="zoom:80%;" />
+<img src="Images/feats_chart.png" style="zoom:67%;" />
 
 
 
