@@ -4,7 +4,7 @@
 
 
 
-## **Overview **
+## Overview
 
 With statistical insight, we took on research and experimentation with various predictive supervised machine learning algorithms to analyze statistical risks involved in credit loan grants. 
 
@@ -18,7 +18,7 @@ With a creative approach, we ran our data through different methods to train and
 
 
 
-## **Results** 
+## Results 
 
 First, we loaded, inspected and cleaned the data. The first five columns of the clean Loan Stats dataset from 2019 can be seen in this screenshot:
 
@@ -205,8 +205,7 @@ We also created a complementary bar **chart visualization** with all features ap
 
 
 
-
-## **Summary**
+## Summary
 
 
 
