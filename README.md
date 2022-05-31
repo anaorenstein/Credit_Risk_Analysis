@@ -2,8 +2,6 @@
 
 
 
-
-
 ## Overview
 
 With statistical insight, we took on research and experimentation with various predictive supervised machine learning algorithms to analyze statistical risks involved in credit loan grants. 
@@ -13,8 +11,6 @@ Using a dataset from LendingClub, a peer-to-peer lending services company, we pr
 What is the best way to prevent risky loans? How can we predict risk on unseen data, i.e., good potential in future clients? 
 
 With a creative approach, we ran our data through different methods to train and evaluate models, investigating which of these algorithms performs best as predicting the target outcome — whether a given potential client is a low-risk or a high risk client — given **unbalanced** classes.  
-
-
 
 
 
@@ -36,11 +32,11 @@ Below you will find, divided into categories, a brief summary and analysis of th
 
 
 
-### Resampling
+## Resampling
 
 Our first approach was to compare the performances of two oversampling algorithms, and one under-sampling algorithm. The Jupyter Notebook that contains the code for this stage of the process can be found [here](credit_risk_resampling.ipnyb).
 
-#### Oversampling
+### Oversampling
 
 The two oversampling algorithms we used were:
 
@@ -84,7 +80,7 @@ The two oversampling algorithms we used were:
 
     ![](Images/smote_rep.png)
 
-#### Undersampling
+### Undersampling
 
 The method used was:
 
@@ -108,7 +104,7 @@ The method used was:
 
     ![](Images/cluster_rep.png)
 
-#### Combination (Over and Under) Sampling
+### Combination (Over and Under) Sampling
 
 Our final resampling approach was to test a combination over- and under-sampling algorithms. We did that in the following steps:
 
@@ -134,7 +130,7 @@ Our final resampling approach was to test a combination over- and under-sampling
 
 
 
-### Ensemble
+## Ensemble
 
 Our second approach was to compare the performances of two ensemble algorithms. The Jupyter Notebook that contains the code for this stage of the process can be found [here](credit_risk_ensemble.ipnyb).
 
@@ -184,7 +180,7 @@ The two ensemble algorithms we used were:
 
 
 
-### Feature Importance
+## Feature Importance
 
 The Machine Learning algorithm that we will identify at the conclusion of our analysis as 'best performing' in the task of predicting risk for future loans and unseen data will be the tool that we recommend be utilized in the process that offers the most optimal likelihood of success to its user. 
 
